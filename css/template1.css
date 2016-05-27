@@ -1,0 +1,32 @@
+.padding-down {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+body {
+    background-image: url('sovngarde.jpg');
+}
+
+div.main-background {
+    display: table-cell;
+    
+    width: 1200px;
+    height: 1200px;
+    background-color: white;
+    padding: 0px;
+}
+
+p {
+    text-align: center;
+    margin-top: -40px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+}
+
+.spacing {
+    margin-top: 50px;
+}
+
+.middlething {
+    margin-left: 215px;
+}

@@ -1,0 +1,75 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 18, 2016, 2:59:36 PM
+    Author     : Student
+*/
+
+.todolistcenter {
+    text-align: center;
+}
+
+.paddingtest {
+    padding-left: 20px;
+    padding-bottom: 10px;
+    padding-right: 68px;
+    border: grey ridge thick;
+    
+}
+
+.paddingleft {
+    padding-left: 300px;
+}
+
+.button-size {
+   font-size: 23.5px;
+}
+
+.button-size2 {
+    font-size: 43.8px;
+}
+
+.bold {
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.thick {
+    font-weight: 900;
+}
+
+.bar {
+    border-bottom: #BDBDBD ridge thick;
+}
+
+.left {
+    position:absolute;
+    left:0; top:64px; bottom: -100%;
+    width: 178px;
+}
+.main {
+    position: absolute;
+    left:178px; top:92px;
+    display: flex;
+    min-height: 100vh;
+    flex: 1 0 auto;
+    flex-direction: column;
+}
+
+.right {
+    position:absolute;
+    right:0; top:64px; bottom: 0;
+    width: 178px;
+}
+
+.our-users {
+    text-align: center;
+    font-weight: 600;
+}
+
+.form-title {
+    font-weight: bold;
+}

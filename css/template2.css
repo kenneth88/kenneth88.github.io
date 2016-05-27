@@ -1,0 +1,51 @@
+.padding-down {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+body {
+    background-image: url('sovngarde.jpg');
+}
+
+.main-background {
+    display: table-cell;
+    margin-left:auto;
+    margin-right:auto;
+    width: 1200px;
+    height: 555px;
+    background-color: white;
+}
+
+p {
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+}
+
+.todolistcenter {
+    text-align: center;
+}
+
+.paddingtest {
+    padding-left: 20px;
+    padding-bottom: 10px;
+    padding-right: 68px;
+    border: grey ridge thick;
+    
+}
+
+.paddingleft {
+    padding-left: 100px;
+}
+
+.main {
+    position: absolute;
+    left:178px; top:92px;
+    display: flex;
+    min-height: 100vh;
+    flex: 1 0 auto;
+    flex-direction: column;
+}
+
+.form-title {
+    font-weight: bold;
+}
