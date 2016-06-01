@@ -16,36 +16,16 @@ body {
     background-color: white;
 }
 
-p {
-    text-align: center;
-    font-family: 'Oswald', sans-serif;
+.alignleft {
+  padding-left: 20px;  
+  border: #455a64 thick hidden;
 }
 
-.todolistcenter {
-    text-align: center;
+.italy {
+    font-style: italic;
+    color: grey;
 }
 
-.paddingtest {
-    padding-left: 20px;
-    padding-bottom: 10px;
-    padding-right: 68px;
-    border: grey ridge thick;
-    
-}
-
-.paddingleft {
-    padding-left: 100px;
-}
-
-.main {
-    position: absolute;
-    left:178px; top:92px;
-    display: flex;
-    min-height: 100vh;
-    flex: 1 0 auto;
-    flex-direction: column;
-}
-
-.form-title {
-    font-weight: bold;
+.notasbig {
+    font-size: 40px;
 }

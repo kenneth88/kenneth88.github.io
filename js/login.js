@@ -63,6 +63,7 @@ function Posts(args) {
     args = args || {};
     this.title = args.title || "";
     this.content = args.content || "";
+    this.authorEmail = args.authorEmail || "";
 }
 
 function userLoggedIn(user) {

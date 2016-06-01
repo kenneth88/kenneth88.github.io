@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(loading.jpg);
+}
+
+#game-screen {
+    display: block;
+}
+
+#gameOver, #playHUD {
+    position: absolute;
+    visibility: hidden;
+}
+
+h1, h2, h3, h4, h5, a {
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+    color: #0DFF00;
+    
+}
+
+.title {
+    font-size: 62px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+#restartButton {
+    border: 2px solid #0DFF00;
+    border-radius: 10px;
+}
+
+#restartButton:hover {
+    background-color: white;
+    font-style: italic;
+}
+
+#scoreboard {
+    margin: 0px;
+}
+
+#mainMenu {
+    color: #067800;
+    position: absolute;
+    font-size: 62px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+#mainMenu:hover {
+    color: #0DFF00;
+}
+
+#mainmenuButton {
+    border: 2px solid #0DFF00;
+    border-radius: 10px;
+    font-size: 1.17em;
+    margin-top: 0px;
+    font-weight: bolder;
+    display: block;
+    text-decoration: none;
+}
+
+#mainmenuButton:hover {
+    background-color: white;
+    font-style: italic;
+}
+
+#creator {
+    color: #033300;
+    position: absolute;
+    font-size: 10px;
+    margin-top: 310px;
+}
+
+#easy {
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+    color: #004875;
+    font-size: 62px;
+    position: absolute;
+    padding-bottom: 160px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#easy:hover {
+    color: #009DFF;
+}
+
+#hard {
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+    color: #8A0900;
+    font-size: 62px;
+    position: absolute;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 80px;
+}
+
+#hard:hover {
+    color: #FF1100;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Jorge Chinchilla - Snake JS</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href='https://fonts.googleapis.com/css?family=Orbitron:400,500,700,900' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+    <body>
+        <section id="trueMenu">
+            <h4 id="mainMenu">Snake</h4>
+            <h5 id="creator">© 2015 Jorge Chinchilla</h5>
+        </section>
+        <section id="playHUD">
+            <h2 id="scoreboard"></h2>
+        </section>
+        <section id="gameOver">
+            <h1 class="title">GAME OVER!</h1>
+            <h3 id="restartButton">Restart?</h3>
+            <a id="mainmenuButton" href="snake.html">Main Menu?</a>
+            <audio id="soundEfx" src="pickup.wav" style="display: none;"></audio>
+            <audio id="musichard" src="hard.mp3" style="display: none;"></audio>
+            <audio id="death" src="death.wav" style="display: none;"></audio>
+            <audio id="menuMusic" src="metroid.mp3" style="display: none;"></audio>
+            <audio id="menuClick" src="ring.wav" style="display: none;"></audio>
+            <audio id="deathmusic" src="gameover.mp3" style="display: none;"></audio>
+        </section>
+        <canvas id="game-screen"></canvas>
+        
+        <script src="js/snake2.js"></script>
+    </body>
+</html>
+

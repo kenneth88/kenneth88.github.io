@@ -38,18 +38,21 @@ and open the template in the editor.
         <main>
             <div class="container">
                 <div class="main-background">
-                    
+                    <div class="row">
+                    <div class="col s12 main-container">
+                        
+                    </div>
                 </div>
+                </div>
+                
             </div>
         </main>
       <script id="blogs-template" type="text/x-handlebars-template">
           {{#each posts}}
-            <div class="blog-post" style="transform: translate(30%, -20%);">
-                <h2 class="blog-post-title">{{title}}</h2>
-                <p class="blog-post-meta">On {{format created}} by {{authorEmail}}</p>
+            <div class="blog-post alignleft">
+                <h2 class="blog-post-title notasbig">{{title}}</h2>
+                <p class="blog-post-meta italy">On {{format created}} by {{authorEmail}}</p>
                 <div>{{content}}</div>
-                <div>{{content2}}</div>
-                <div>{{content3}}</div>
             </div>
                 {{/each}}    
         </script>
